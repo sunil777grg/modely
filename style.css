@@ -1,18 +1,31 @@
 body,
 html {
+
 	  width: 100%;
 	  height: 100%;
 	  font-family: 'Montserrat', sans-serif;
 	  margin: 0;
 	  padding: 0;
 	  overflow: hidden;
-	  background: url(2021-Tesla-Model-Y-001-1080.jpg) no-repeat center center fixed;
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
+	  	 
 }
 
+.image-head{
+
+  background-image:url(2021-Tesla-Model-Y-001-1080.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
 
 .con-c{
 
@@ -43,6 +56,7 @@ html {
 	}
 	
 .but{
+
 	position: relative;
 	top:50%;
 	display: flex;
@@ -61,16 +75,6 @@ html {
 	0%{opacity: 0.5;}
 	40%{ opacity: 1; top: 40%;}
 }
-
-
-
-
-/*
-.buff{
-
-	height: 15rem;
-}
-*/
 
 
 
