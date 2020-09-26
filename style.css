@@ -13,30 +13,21 @@ html {
 	  background-size: cover;
 }
 
-.container{
 
-	display: flex;
-
-}
 .con-c{
 
-	position: absolute;
-	top: 2%;
-	left: 0;
-	right: 0;
-	z-index: 999;
-	text-align: center;
+	height:100%;
+	width: 100%;
 }
 
+.text-center{
+
+	margin-top: 100px;
+
+}
 
 .sub{
-
-	position: absolute;
-	top: 83%;
-	left: 40%;
-	right: 0;
-	z-index: 999;
-	text-align: center;
+	
 	color: white;
 	background: transparent;
 	border-radius: 55px 55px;
@@ -45,37 +36,46 @@ html {
 	border: 5px solid white;
 	letter-spacing: 2px;
 	outline-style:none !important;
-    box-shadow: none !important;	
-    opacity: 0.5;
+    box-shadow: none !important;
+    opacity: 1;	
+    
+    
+	}
+	
+.but{
+	position: relative;
+	top:50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
     animation-name: exam;
     animation-duration: 4s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    animation-direction: reverse;
-    
+    animation-direction: normal;
 
-	}
+}
 
 @keyframes exam{
 
 	0%{opacity: 0.5;}
-	40%{ opacity: 1; top:80%;}
+	40%{ opacity: 1; top: 40%;}
 }
 
-.sub:hover{
 
-	color:white;
-	transition: all 0.4s ease-in-out;
-	outline-style:none !important;
-    box-shadow: none !important;
-    opacity: 1;
+
+
+/*
+.buff{
+
+	height: 15rem;
 }
-
+*/
 
 
 
 h1{
-	margin:100px 100px ;
+	margin:50px 100px ;
 	color: white;
 	font-size: 70px;
 
