@@ -96,3 +96,8 @@ h1:hover{
 	cursor: pointer;
 
 }
+.animate__animated.animate__bounce{
+
+	--animate-delay: 1s;
+
+}
